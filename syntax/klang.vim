@@ -30,6 +30,6 @@ let b:current_syntax = "klang"
 
 hi def link kLangType Type
 hi def link kLangKeywords Keyword
-hi def link kLangFunctions Keyword
+hi def link kLangFunctions Function
 hi def link kLangStatements Statement
 hi def link kLangConstants Constant
