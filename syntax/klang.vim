@@ -16,7 +16,7 @@ runtime! syntax/c.vim
 syn keyword kLangType INT REAL STRING
 syn keyword kLangKeywords PROGRAM STOP AND OR GOTO FUNCTION PROCEDURE ON_ERR ON_ESC NOT
 syn keyword kLangFunctions Abs22cc Acos Angle360 Asin Atan Cc2abs Ceil Cos Cosh Exp Floor Hypot Iabs Ln Log Mod Pol Pow Rabs Rand Rec Rotate2d Round Sin Sinh Sqr Sqrt Tan Tanh Distline Lineip Mapcoord Normalip Pfromline Asc Chr Chartooem Oemtochar Strcat Strcmp Strdate Strdel Strfill Stricmp Strins Strlen Strlwr Strmid Strrev Strset Strstr Strtime Strupr Strval Valstr Chdir Close Copy Delete Eof Exists Findfirst Findnext Findrec Iostat Mkdir Open Read Readbuf Readln Rename Rmdir Seek Setkey Tell Write Writeln Cads Cls Getfilename Getkey Getpoint Input Keyhit Print Setcursor Using Atexit Invoke Invokeres Getvar Setvar Degree Radian Grad Arc Box Circle Lineto Linerel Moveto Moverel Setcolor Setfmode Setwmode Text Chain Date Graphmode Pause Textmode Time Typein Searchelem Searcharea Select Sdel Sput Sset Searchlayer Tablenext Sget Ename NextObject PrevObject Ename Getobject Getobjecttype Eget Hget Modobject Emod Edel Hmod Update Aname Aget Amod
-syn keyword kLangStatements BEGIN IF THEN ELSE END REPEAT WHILE UNTIL FOR TO STEP DO
+syn keyword kLangStatements BEGIN IF THEN ELSE END REPEAT WHILE UNTIL FOR TO DOWNTO STEP DO
 syn keyword kLangConstants TRUE FALSE
 
 " Constants from ddb.h
